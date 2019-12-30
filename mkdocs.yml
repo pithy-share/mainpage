@@ -1,0 +1,10 @@
+site_name: zyong
+nav:
+- Home: index.md
+- Notes:
+    - gcc: notes/gcc.md
+    - python: notes/python.md
+- MyProj:
+    - bmp: myproj/bmp.md
+    - cauto: myproj/cauto.md    
+theme: readthedocs
