@@ -5,6 +5,7 @@ nav:
     - gcc: notes/gcc.md
     - python: notes/python.md
     - git: notes/git.md
+- Awsome: awsome/aw_soft.md
 - MyProj:
     - bmp: myproj/bmp.md
     - cauto: myproj/cauto.md    
