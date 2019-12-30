@@ -112,21 +112,44 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 * add pubkey to github
 
-* * 1.copy pulic key to clipboard 
+1.copy pulic key to clipboard
 ```bash
 clip < ~/.ssh/id_rsa.pub
 ```
-* * 2.click setting
+2.click setting
 
 ![setting.img](../img/github_setting.jpg)
 
-* * 3.click `New SSH key` 
+3.click `New SSH key` 
 ![ssh.img](../img/github_ssh.jpg)
 
-* * 4.copy string from clipboard and add
+4.copy string from clipboard and add
 ![sshstring.img](../img/github_ssh_copy.jpg)
 
 * clone Repositories with ssh
 
 ![clonessh.img](../img/github_clonessh.jpg)
 
+# Other
+* view remote repository version 
+```bash
+$ git remote -v
+origin  git@github.com:zyongzhangyong/mainpage.git (fetch)
+origin  git@github.com:zyongzhangyong/mainpage.git (push)
+```
+
+* ignore file
+```bash
+touch .gitignore
+```
+add ignore files or dir in .gitignore
+```bash
+site/*
+*.log
+```
+
+* view log or diff
+```bash
+gitk
+```
+![gitk.img](../img/gitk.jpg)
