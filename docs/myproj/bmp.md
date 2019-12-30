@@ -1,1 +1,1 @@
-this is bmp file
+this is bmp file now
