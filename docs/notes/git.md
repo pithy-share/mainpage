@@ -1,6 +1,15 @@
-# Base
+# git
 
-* status
+## base
+
+### clone
+
+```bash
+git clone https://github.com/zyongzhangyong/cauto.git
+```
+
+### status
+
 ```bash
 $ git status
 On branch master
@@ -13,7 +22,8 @@ Changes not staged for commit:
         modified:   mkdocs.yml
 ```
 
-* add
+### add
+
 ```bash
 $ git add docs/notes/git.md
 $ git status
@@ -25,7 +35,8 @@ Changes to be committed:
         new file:   docs/notes/git.md
 ```
 
-* commit
+### commit
+
 ```bash
 $ git commit -m "add git usage"
 [master 564d7bc] add git usage
@@ -34,7 +45,8 @@ $ git commit -m "add git usage"
 
 ```
 
-* push
+### push
+
 ```bash
 $ git push
 Enumerating objects: 8, done.
@@ -49,13 +61,16 @@ To https://github.com/zyongzhangyong/mainpage.git
 
 ```
 
-# Branch
-* view
+## Branch
+
+### view
 ```bash
 	$ git branch
 	* master
 ```
-* create
+
+### create
+
 ```bash
 $ git branch test
 Administrator@PC-20180827CUXX MINGW64 /e/git_rep/github/mainpage/mainpage (master)
@@ -63,7 +78,7 @@ $ git branch
 * master
   test
 ```
-* switch
+### switch
 ```bash
 $ git branch
 * master
@@ -82,7 +97,7 @@ $ git branch
 * test
 ```
 
-* del
+### del
 ```bash
 $ git checkout master
 Switched to branch 'master'
@@ -104,52 +119,66 @@ $ git branch
 * master
 ```
 
-# Add ssh key
-* create
+## Add ssh key
+
+### create
+
 ```bash
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
 
-* add pubkey to github
+### add pubkey to github
 
 1.copy pulic key to clipboard
+
 ```bash
 clip < ~/.ssh/id_rsa.pub
 ```
+
 2.click setting
 
 ![setting.img](../img/github_setting.jpg)
 
-3.click `New SSH key` 
+3.click `New SSH key`
+
 ![ssh.img](../img/github_ssh.jpg)
 
 4.copy string from clipboard and add
+
 ![sshstring.img](../img/github_ssh_copy.jpg)
 
-* clone Repositories with ssh
+### clone Repositories with ssh
 
 ![clonessh.img](../img/github_clonessh.jpg)
 
-# Other
-* view remote repository version 
+## Other
+
+### view remote repository version 
+
 ```bash
 $ git remote -v
 origin  git@github.com:zyongzhangyong/mainpage.git (fetch)
 origin  git@github.com:zyongzhangyong/mainpage.git (push)
 ```
 
-* ignore file
+### ignore file
+
 ```bash
 touch .gitignore
 ```
+
 add ignore files or dir in .gitignore
+
 ```bash
 site/*
 *.log
 ```
 
-* view log or diff
+### view log or diff
+
 ```bash
 gitk
 ```
+
 ![gitk.img](../img/gitk.jpg)
+
