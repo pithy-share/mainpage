@@ -1,4 +1,17 @@
+# Project information
 site_name: zyong
+site_description: notes blog proj
+site_author: zhang yong
+site_url: https://zyongzhangyong.github.io/
+
+# Repository
+repo_name: zyongzhangyong.github.io
+repo_url: https://github.com/zyongzhangyong/zyongzhangyong.github.io
+edit_uri: ""
+
+# Copyright
+copyright: 'Copyright &copy; 2019 - 2020 zhangyong'
+
 nav:
 - Home: index.md
 - Notes:

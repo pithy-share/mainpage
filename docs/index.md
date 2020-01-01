@@ -1,6 +1,10 @@
 # Welcome !
 Code beyond time !!!
 
+Sharing goes beyond sharing
+
+Simple, Pithy, Fast
+
 # Plan
 
 ## proj
@@ -28,4 +32,6 @@ Code beyond time !!!
 * everything
 ## program
 * c
+
+## book
 
