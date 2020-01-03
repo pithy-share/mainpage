@@ -17,7 +17,10 @@ nav:
 - Notes:
     - gcc: notes/gcc.md
     - python: notes/python.md
+    - pip: notes/pip.md
     - git: notes/git.md
+    - npm: notes/npm.md
+    - http-server: notes/http-server.md
     - mkdocs: notes/mkdocs.md
 - Awesome:
     - soft: awsome/aw_soft.md

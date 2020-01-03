@@ -1,5 +1,9 @@
 # git
 
+## Set up
+
+[git setup](https://git-scm.com/)
+
 ## base
 
 ### clone
@@ -121,6 +125,15 @@ $ git branch
 
 ## Add ssh key
 
+### view
+* if has no ssh key, to `create`
+* if has ssh key, to `add pubkey to github`
+```bash
+$ ls ~/.ssh/
+id_rsa  id_rsa.pub  known_hosts
+```
+
+
 ### create
 
 ```bash
@@ -146,6 +159,21 @@ clip < ~/.ssh/id_rsa.pub
 4.copy string from clipboard and add
 
 ![sshstring.img](../img/github_ssh_copy.jpg)
+
+### test ssh key
+```bash
+$ ssh -T git@github.com
+The authenticity of host 'github.com (13.250.177.223)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+```
+input `yes`
+```bash
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.250.177.223' (RSA) to the list of known hosts.
+Hi zyongzhangyong! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
 
 ### clone Repositories with ssh
 
