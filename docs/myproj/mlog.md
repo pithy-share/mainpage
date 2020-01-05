@@ -4,7 +4,7 @@
 mlog is a lightweight c language log library .
 
 ![github](../img/github.png)
-[source code in github](https://github.com/zyongzhangyong/cauto)
+[source code in github](https://github.com/zyongzhangyong/mlog)
 
 ### File layout
 
