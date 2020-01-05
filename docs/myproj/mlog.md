@@ -63,7 +63,14 @@ int main(void)
 	M_FATAL("this is fatal %s %d\n", "gggg", 123);
 	return 0;
 }
-
+```
+in log file `mylog_0.log` will output these:
+```
+2020.01.05 03:57:11.431 debug: this is debug gggg 123
+2020.01.05 03:57:11.431 info: this is info gggg 123
+2020.01.05 03:57:11.441 warn: this is warn gggg 123
+2020.01.05 03:57:11.441 error: this is error gggg 123
+2020.01.05 03:57:11.441 fatal: this is fatal gggg 123
 ```
 
 ## Configuration 
