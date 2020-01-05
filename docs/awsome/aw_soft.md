@@ -1,6 +1,7 @@
-| name|  info  |usage|
-|----|----|----|
-|[notepad ++](https://notepad-plus-plus.org/)|editor|
-|[snipaste](https://www.snipaste.com/) | screen capture|[doc](snipaste.md)|
-|[autohotkey](https://www.autohotkey.com/)| hot key||
-|[7-zip](https://www.7-zip.org/)|
+name|  info  |usage
+-|-|-
+[notepad ++](https://notepad-plus-plus.org/)|editor
+[snipaste](https://www.snipaste.com/) | screen capture|[doc](snipaste.md)
+[autohotkey](https://www.autohotkey.com/)| hot key
+[7-zip](https://www.7-zip.org/)
+[Iconfont](https://www.iconfont.cn/)

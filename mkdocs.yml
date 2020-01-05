@@ -22,11 +22,16 @@ nav:
     - npm: notes/npm.md
     - http-server: notes/http-server.md
     - mkdocs: notes/mkdocs.md
+    - markdown: notes/markdown.md
 - Awesome:
     - soft: awsome/aw_soft.md
 - MyProj:
+    - mlog: myproj/mlog.md
     - bmp: myproj/bmp.md
-    - cauto: myproj/cauto.md    
+    - cauto: myproj/cauto.md
+- Books:
+    - Resource: book/book_src.md
+    - 读书笔记: book/book_notes.md
 theme:
   name: material
   # 404 page
@@ -38,7 +43,7 @@ theme:
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
-  language: en
+  language: zh
   feature:
     tabs: true
   palette:
@@ -51,6 +56,7 @@ theme:
   logo:
     icon: "\uE80C"
     
+
 # Plugins
 plugins:
   - search

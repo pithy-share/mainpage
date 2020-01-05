@@ -3,7 +3,7 @@ Code beyond time !!!
 
 Sharing goes beyond sharing
 
-Simple, Pithy, Fast
+Simple, Pithy, Clear
 
 # Plan
 
@@ -20,16 +20,19 @@ Simple, Pithy, Fast
 * tcui
 * bmp
 * getmouse
+
 ## notes
 * mkdocs
 * python
 * http-server
 * mingw
 * sdl
+
 ## awsome
 * crt
 * sccom
 * everything
+
 ## program
 * c
 
