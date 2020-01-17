@@ -4,7 +4,7 @@
 
 [git setup](https://git-scm.com/)
 
-## base
+## Base
 
 ### clone
 
@@ -64,6 +64,22 @@ To https://github.com/zyongzhangyong/mainpage.git
    eaea8e7..564d7bc  master -> master
 
 ```
+
+### reset
+* soft reset
+
+not clean your modify 
+```shell
+git reset --soft 97ef9812b55cf14680eb8b70a39fb4821abb54dd
+```
+
+* hard reset
+
+clean your modify 
+```shell
+git reset --hard 97ef9812b55cf14680eb8b70a39fb4821abb54dd
+```
+
 
 ## Branch
 
@@ -180,6 +196,14 @@ Hi zyongzhangyong! You've successfully authenticated, but GitHub does not provid
 ![clonessh.img](../img/github_clonessh.jpg)
 
 ## Other
+
+### init
+
+```bash
+mkdir myrep
+cd myrep
+git init
+```
 
 ### view remote repository version 
 

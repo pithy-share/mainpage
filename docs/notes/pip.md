@@ -17,9 +17,10 @@ pip install mkdocs -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ### permanent
 
 on windows
+
 * create a pip directory `C:\Users\xx\pip`
-* create `pip.ini` in pip directory file
-* edit file
+* create a `pip.ini` file in pip directory
+* edit `pip.ini` file
 
 ```bash
  [global]

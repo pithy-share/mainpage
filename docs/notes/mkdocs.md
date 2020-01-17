@@ -43,3 +43,24 @@ add material to mkdocs.yml
 theme:
   name: material
 ```
+
+## Emoji
+edit `mkdocs.yml`
+```
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+```
+
+[emoji index](https://github.com/facelessuser/pymdown-extensions/blob/master/pymdownx/twemoji_db.py)
+
+```
+:100:
+:eyes:
+:green_book:
+```
+
+:100:
+:eyes:
+:green_book:
