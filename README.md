@@ -1,1 +1,1 @@
-[main page](http://oschina_git_cloud.gitee.io/home)
+[main page](http://zyong.site)
